@@ -2,13 +2,17 @@
   "name": "video7",
   "version": "1.0.0",
   "description": "a backend at chai aur code",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "javascript"
   ],
   "author": "ayush vishwakarma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
